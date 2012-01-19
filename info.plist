@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>svyvc@grccre.cy</string>
+	<key>contactName</key>
+	<string>Filip Tepper</string>
+	<key>description</key>
+	<string>This bundle is pure Happiness, guaranteed!</string>
+	<key>name</key>
+	<string>Happiness</string>
+	<key>uuid</key>
+	<string>7F8F6469-8AA5-4F01-9399-EF110347AEC1</string>
+</dict>
+</plist>

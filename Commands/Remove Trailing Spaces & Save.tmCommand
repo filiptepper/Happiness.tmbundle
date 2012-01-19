@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoScrollOutput</key>
+	<true/>
+	<key>beforeRunningCommand</key>
+	<string>saveModifiedFiles</string>
+	<key>command</key>
+	<string>#!/usr/bin/env bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+perl -pe 's/[\t ]+$//g'</string>
+	<key>input</key>
+	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>@s</string>
+	<key>name</key>
+	<string>Remove Trailing Spaces &amp; Save</string>
+	<key>outputCaret</key>
+	<string>interpolateByChar</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>replaceDocument</string>
+	<key>uuid</key>
+	<string>AF8F7F94-55B3-4424-B412-52226E569679</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
